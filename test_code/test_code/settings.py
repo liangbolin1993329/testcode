@@ -137,3 +137,5 @@ djcelery.setup_loader()
 BROKER_URL='redis://127.0.0.1:6379/1'
 CELERY_CONCURRENCY= 2 #（设置worker的并发数量）
 CELERY_RESULT_BACKEND = 'redis://localhost:6379/2'
+
+#测试中
